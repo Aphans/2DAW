@@ -1,0 +1,43 @@
+/*
+Margenes para el body
+*/
+.body{
+    margin-left: 200px;;
+    margin-right:200px;
+}
+/*
+Div para el menú
+*/
+.menu{
+    overflow: visible;
+    max-height: none;
+}
+/*
+Decoración de menú
+*/
+ul li a{
+    text-decoration:none; /*Eliminar subrayado*/
+    color:rgb(35, 56, 107);/*Color de letras del menú*/
+    font-size:18px;/*Tamaño de la letra*/
+}
+
+/*
+Eliminación de puntos en las listas y poner esta horizontal
+*/
+ul li{
+    list-style-type: none;
+    display: inline;
+    min-width: 600px;
+    padding-left:10px;
+    padding-right: 20px;
+}
+
+/*Posicionar los enlaces del menú*/
+.menu > ul{
+    position:static;
+    top:80px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color:rgb(35, 56, 107);
+    padding-left: 500px;
+}
